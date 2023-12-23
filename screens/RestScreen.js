@@ -2,7 +2,6 @@ import { useNavigation } from '@react-navigation/native';
 import { useEffect, useState } from 'react';
 import { Image, Text } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
-SafeAreaView;
 import { MaterialIcons } from '@expo/vector-icons';
 
 const RestScreen = () => {

@@ -4,9 +4,12 @@ import HomeScreen from './screens/HomeScreen';
 import WorkoutScreen from './screens/WorkoutScreen';
 import FitScreen from './screens/FitScreen';
 import RestScreen from './screens/RestScreen';
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
 const StackNavigator = () => {
   const Stack = createNativeStackNavigator();
+  
+  
   return (
     <NavigationContainer>
       <Stack.Navigator>
